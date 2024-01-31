@@ -1,0 +1,11 @@
+.ssuubb{
+    height: 40px;
+    width: 80px;
+    background-color: blue;
+    color: rgb(218, 229, 16);
+    padding: 10px;
+    border-radius: 10%;
+}
+.ssuubb:hover{
+    background-color: rgb(73, 219, 32);
+}
