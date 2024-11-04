@@ -3,7 +3,7 @@ import best from '../Best_staff/best1.jpg'
 import '../Best_staff/Best_staff.css'
 const BestStaff = () => {
     return (
-        <div className='bbbbesst mt-14 m-auto '>
+        <div className='bbbbesst mt-14 m-auto  mb-10'>
             
             <div className="card lg:card-side bg-red-50 shadow-xl">
             <figure><img className='best m-5' src={best} alt="Album"/></figure>

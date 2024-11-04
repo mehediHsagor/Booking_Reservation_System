@@ -1,0 +1,303 @@
+[
+    {
+        "id": "101",
+        "name": "Cozy Bedroom Retreat",
+        "image": "https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=2057&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "Bedroom",
+        "details": "This cozy bedroom is perfect for relaxation with its soft lighting and comfortable furnishings.",
+        "price": "$100 per night"
+    },
+    {
+        "id": "102",
+        "name": "Modern Living Room",
+        "image": "https://media.istockphoto.com/id/491447235/photo/bedroom-with-black-furniture.jpg?s=2048x2048&w=is&k=20&c=MkvlxcoYLB_JpbT7yB4HxYcxrCtrzZug6rmWgjmpSh4=",
+        "category": " Bedroom",
+        "details": "Experience comfort and style in this modern living room with ample seating and entertainment options.",
+        "price": "$150 per night"
+    },
+    {
+        "id": "103",
+        "name": "Spacious Kitchen & Dining Area",
+        "image": "https://www.mydomaine.com/thmb/WQM0ua22UGoxnWRp5GDNVYz7Kic=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/180601_Proem_Ranc0776-58c2377ccda14cf5b67ec01708afc0fd.jpg",
+        "category": "Kitchen & Dining",
+        "details": "Enjoy cooking and dining in this spacious kitchen area with modern appliances and a large dining table.",
+        "price": "$200 per night"
+    }
+,
+    {
+        "id": "104",
+        "name": "Rustic Cabin",
+        "image": "https://s3.amazonaws.com/static-loghome/media/CL-Dec-15-DI-Halvorsen_0279_11868_2023-07-17_14-05.jpg",
+        "category": "Cabin",
+        "details": "Escape to nature in this charming rustic cabin surrounded by forests and wildlife.",
+        "price": "$120 per night"
+    },
+    {
+        "id": "105",
+        "name": "Sunny Beach House",
+        "image": "https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "Beach House",
+        "details": "Relax by the beach in this bright and airy house with stunning ocean views.",
+        "price": "$250 per night"
+    },
+    {
+        "id": "106",
+        "name": "Elegant Dining Room",
+        "image": "https://images.unsplash.com/photo-1505409628601-edc9af17fda6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "Dining Room",
+        "details": "Host memorable dinners in this elegant dining room with classic decor and ample seating.",
+        "price": "$180 per night"
+    },
+    {
+        "id": "107",
+        "name": "Quaint Cottage",
+        "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": " Bedroom",
+        "details": "Experience charm and comfort in this quaint cottage nestled in a picturesque countryside.",
+        "price": "$140 per night"
+    },
+    {
+        "id": "108",
+        "name": "Luxury Penthouse Suite",
+        "image": "https://thumbs.dreamstime.com/z/master-bedroom-harpsichord-penthouse-new-york-10340937.jpg?ct=jpeg",
+        "category": "Penthouse",
+        "details": "Indulge in luxury living with breathtaking city views in this spacious penthouse suite.",
+        "price": "$500 per night"
+    },
+    {
+        "id": "109",
+        "name": "Vintage Victorian Bedroom",
+        "image": "https://plus.unsplash.com/premium_photo-1661884238187-1c274b3c3413?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "Bedroom",
+        "details": "Step back in time in this beautifully decorated Victorian bedroom with antique furniture.",
+        "price": "$180 per night"
+    },
+    
+    {
+        "id": "111",
+        "name": "Mountain View Chalet",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/361577075.jpg?k=5aca8197c528e013514727436961cf637576b8080baa9b2b5647a71932b1ff66&o=&hp=1",
+        "category": "Chalet",
+        "details": "Enjoy stunning mountain views from this cozy chalet nestled in the heart of the Alps.",
+        "price": "$200 per night"
+    },
+    {
+        "id": "112",
+        "name": "Sleek City Apartment",
+        "image": "https://images.unsplash.com/photo-1580041065738-e72023775cdc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "Apartment",
+        "details": "Experience urban living at its finest in this sleek apartment located in the heart of the city.",
+        "price": "$300 per night"
+    },
+    {
+        "id": "113",
+        "name": "Charming Garden Cottage",
+        "image": "https://media.istockphoto.com/id/610969812/photo/garden-house.jpg?s=2048x2048&w=is&k=20&c=wD8U6YcRDg2MEr2KvhxZ25M-haSGpOE3oWM4pgRhzzs=",
+        "category": "Cottage",
+        "details": "Escape to a peaceful garden oasis in this charming cottage surrounded by lush greenery.",
+        "price": "$150 per night"
+    },
+    {
+        "id": "114",
+        "name": " 5 star hotel bangladesh ",
+        "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": " Bedroom",
+        "details": "Connect with nature in this eco-friendly treehouse retreat nestled among the trees.",
+        "price": "$180 per night"
+    },
+   
+    {
+        "id": "116",
+        "name": "Retro Diner",
+        "image": "https://example.com/diner_image.jpg",
+        "category": "Restaurant",
+        "details": "Experience nostalgia in this retro diner with a classic 1950s vibe and delicious comfort food.",
+        "price": "Meal prices vary"
+    },
+    {
+        "id": "117",
+        "name": "Serenity Spa",
+        "image": "https://example.com/spa_image.jpg",
+        "category": "Spa",
+        "details": "Relax and rejuvenate in this serene spa oasis offering a range of luxurious treatments.",
+        "price": "Service prices vary"
+    },
+    {
+        "id": "118",
+        "name": "Cosy Fireplace Lounge",
+        "image": "https://example.com/fireplace_lounge_image.jpg",
+        "category": "Lounge",
+        "details": "Unwind by the fireplace in this cosy lounge area with comfortable seating and warm ambiance.",
+        "price": "$120 per night"
+    },
+    {
+        "id": "119",
+        "name": "Chic Boutique Hotel Room",
+        "image": "https://example.com/boutique_hotel_image.jpg",
+        "category": "Hotel Room",
+        "details": "Experience luxury and style in this chic boutique hotel room with modern amenities.",
+        "price": "$220 per night"
+    },
+    {
+        "id": "120",
+        "name": "Elegant Ballroom",
+        "image": "https://example.com/ballroom_image.jpg",
+        "category": "Event Space",
+        "details": "Host grand events in this elegant ballroom with sophisticated decor and spacious layout.",
+        "price": "Event prices vary"
+    },
+    {
+        "id": "121",
+        "name": "Tranquil Yoga Studio",
+        "image": "https://example.com/yoga_studio_image.jpg",
+        "category": "Fitness",
+        "details": "Find inner peace and balance in this tranquil yoga studio offering a variety of classes.",
+        "price": "Class prices vary"
+    },
+    {
+        "id": "122",
+        "name": "Family-Friendly Playroom",
+        "image": "https://example.com/playroom_image.jpg",
+        "category": "Playroom",
+        "details": "Entertain kids of all ages in this family-friendly playroom filled with toys and games.",
+        "price": "$80 per hour"
+    },
+    {
+        "id": "123",
+        "name": "Zen Meditation Room",
+        "image": "https://example.com/meditation_room_image.jpg",
+        "category": "Meditation Room",
+        "details": "Find peace and serenity in this Zen meditation room designed for quiet reflection.",
+        "price": "$50 per hour"
+    },
+    {
+        "id": "124",
+        "name": "Retro Movie Theater",
+        "image": "https://example.com/movie_theater_image.jpg",
+        "category": "Movie Theater",
+        "details": "Step back in time in this retro movie theater with classic films and vintage decor.",
+        "price": "Ticket prices vary"
+    },
+    {
+        "id": "125",
+        "name": "Cozy Book Nook",
+        "image": "https://example.com/book_nook_image.jpg",
+        "category": "Reading Room",
+        "details": "Escape into the world of books in this cozy nook filled with your favorite reads.",
+        "price": "Free"
+    },
+    {
+        "id": "126",
+        "name": "Rooftop Bar & Lounge",
+        "image": "https://example.com/rooftop_bar_image.jpg",
+        "category": "Bar & Lounge",
+        "details": "Sip cocktails and enjoy panoramic views from this trendy rooftop bar and lounge.",
+        "price": "Drink prices vary"
+    },
+    {
+        "id": "127",
+        "name": "Tranquil Garden Patio",
+        "image": "https://example.com/garden_patio_image.jpg",
+        "category": "Outdoor Space",
+        "details": "Relax in the serenity of nature in this tranquil garden patio surrounded by lush foliage.",
+        "price": "$80 per hour"
+    },
+    {
+        "id": "128",
+        "name": "Cozy Bed & Breakfast",
+        "image": "https://example.com/bed_and_breakfast_image.jpg",
+        "category": "Bed & Breakfast",
+        "details": "Experience warm hospitality and comfort in this cozy bed and breakfast accommodation.",
+        "price": "$120 per night"
+    },
+    {
+        "id": "129",
+        "name": "Vintage Record Room",
+        "image": "https://example.com/record_room_image.jpg",
+        "category": "Entertainment Room",
+        "details": "Relive the classics in this vintage record room with an extensive collection of vinyl records.",
+        "price": "$100 per hour"
+    },
+    {
+        "id": "130",
+        "name": "Scenic Lakeside Cabin",
+        "image": "https://example.com/lakeside_cabin_image.jpg",
+        "category": "Cabin",
+        "details": "Escape to tranquility in this scenic lakeside cabin surrounded by stunning natural beauty.",
+        "price": "$180 per night"
+    }
+,
+    {
+        "id": "131",
+        "name": "Elegant Ballroom",
+        "image": "https://example.com/elegant_ballroom_image.jpg",
+        "category": "Event Space",
+        "details": "Host your special occasions in this elegant ballroom with exquisite decor and ample space.",
+        "price": "Event prices vary"
+    },
+    {
+        "id": "132",
+        "name": "Cozy Fireplace Cabin",
+        "image": "https://example.com/cozy_fireplace_cabin_image.jpg",
+        "category": "Cabin",
+        "details": "Stay warm and cozy by the fireplace in this charming cabin nestled in the woods.",
+        "price": "$150 per night"
+    },
+    {
+        "id": "133",
+        "name": "Rooftop Garden",
+        "image": "https://example.com/rooftop_garden_image.jpg",
+        "category": "Outdoor Space",
+        "details": "Enjoy fresh air and beautiful views in this rooftop garden oasis above the city streets.",
+        "price": "$100 per hour"
+    },
+    {
+        "id": "134",
+        "name": "Executive Boardroom",
+        "image": "https://example.com/executive_boardroom_image.jpg",
+        "category": "Meeting Room",
+        "details": "Conduct your business meetings in style and comfort in this executive boardroom.",
+        "price": "$80 per hour"
+    },
+    {
+        "id": "135",
+        "name": "Vintage Wine Cellar",
+        "image": "https://example.com/wine_cellar_image.jpg",
+        "category": "Wine Cellar",
+        "details": "Indulge in fine wines and elegant surroundings in this vintage wine cellar.",
+        "price": "Wine prices vary"
+    },
+    {
+        "id": "136",
+        "name": "Eco-Friendly Tiny House",
+        "image": "https://example.com/tiny_house_image.jpg",
+        "category": "Tiny House",
+        "details": "Experience minimalist living in this eco-friendly tiny house with modern amenities.",
+        "price": "$100 per night"
+    },
+    
+    {
+        "id": "138",
+        "name": "Luxury Spa Suite",
+        "image": "https://images.unsplash.com/photo-1583416750470-965b2707b355?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "Spa",
+        "details": "Pamper yourself in luxury and relaxation in this spacious spa suite.",
+        "price": "$300 per night"
+    },
+    {
+        "id": "139",
+        "name": "Sunny Rooftop Terrace",
+        "image": "https://cdn.remax-malta.com/app/uploads/2021/06/roof-terrace2.jpg",
+        "category": "Outdoor Space",
+        "details": "Soak up the sun and enjoy outdoor dining in this sunny rooftop terrace with panoramic views.",
+        "price": "$150 per hour"
+    },
+    {
+        "id": "140",
+        "name": "Cozy Cottage Bedroom",
+        "image": "https://decoholic.org/wp-content/uploads/2016/03/cottage-style-bedroom-9.jpg",
+        "category": "Bedroom",
+        "details": "Experience comfort and tranquility in this cozy cottage bedroom with rustic charm.",
+        "price": "$120 per night"
+    }
+]
