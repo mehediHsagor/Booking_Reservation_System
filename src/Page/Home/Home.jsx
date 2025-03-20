@@ -1,24 +1,18 @@
-
-import BestStaff from "../Best_staff/BestStaff";
-import Searchbar from "../Searchbar/Searchbar";
-import Swiper_pagination from "../Swiper_pagination.jsx/Swiper_pagination";
-import Title_extras from "../../Title_extra";
-import Showwatch from "../../ShowWatch/Showwatch";
-import Show from "../../Show/Show";
+import Searchbar from "../Searchbar/Searchbar.jsx"
+import Swiper_pagination from "../Swiper_pagination/Swiper_pagination.jsx";
+import Beststaff from "../Best_staff/BestStaff.jsx";
 
 
 const Home = () => {
-    return (
-        <div>
-            <Searchbar/>
-
-           <Swiper_pagination/>
-           <BestStaff/>
-           <Title_extras title={ 'our gellery'}/>
-          
-           <Show></Show>
-        </div>
-    );
+  return (
+    <div>
+    
+      <Swiper_pagination />
+      <Beststaff />
+      <Searchbar />
+      
+    </div>
+  );
 };
 
 export default Home;

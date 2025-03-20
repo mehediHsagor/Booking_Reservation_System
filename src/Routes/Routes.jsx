@@ -6,6 +6,8 @@ import Contact from "../Page/Contact/Contact";
 import Login from "../Page/Login/Login";
 import Signup from "../Page/Signup/Signup";
 import Hotel from "../Hotel/Hotel";
+import Admin_route from "../Admin_route/Admin_route";
+import Booknow from "../Booknow/Booknow";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,7 +39,16 @@ const router = createBrowserRouter([
   {
     path: '/hotel/:id',
     element: <Hotel></Hotel>,
-    loader: ({ params }) => fetch(`http://localhost:5000/hotel/${params.id}`),
+   
   },
+  {
+
+    path:"admin_route",
+    element:<Admin_route></Admin_route>
+  },{
+
+    path:"/booknow/:id",
+    element:<Booknow></Booknow>
+  }
 ]);
 export default router;

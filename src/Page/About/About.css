@@ -1,0 +1,24 @@
+.about_ss{
+
+    text-align: center;
+    color: rgb(195, 125, 39);
+}
+.abouttt{
+
+    display: flex;
+}
+.aboutimg{
+
+    height: auto;
+    width: 600px;
+    justify-content: center;
+    
+}
+.aboutpara{
+
+    font-weight: 400;
+    text-align: justify;
+    padding: 20px;
+    color: rgb(68, 59, 59);
+    
+}

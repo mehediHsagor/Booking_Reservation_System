@@ -1,0 +1,258 @@
+[
+    {
+        "hotel_id": "BD001",
+        "hotel_name": "Hotel Dhaka Regency",
+        "facility": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa",
+            "Gym",
+            "Restaurant",
+            "Airport Shuttle",
+            "Conference Rooms"
+        ],
+        "location": {
+            "address": "Airport Road, Nikunja 2, Dhaka, Bangladesh",
+            "city": "Dhaka",
+            "state": "Dhaka Division",
+            "country": "Bangladesh",
+            "zip_code": "1229"
+        },
+        "contact_info": {
+            "phone": "+880 2-8913912",
+            "email": "info@dhakaregency.com",
+            "website": "https://www.dhakaregency.com"
+        },
+        "hotel_rating": 4.2,
+        "number_of_rooms": 214,
+        "type": "Luxury",
+        "images": [
+          " https://www.miyakola.com/files/6716/Corner-Executive_2019.jpg",
+            "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+    },
+    {
+        "hotel_id": "BD002",
+        "hotel_name": "The Westin Dhaka",
+        "facility": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa",
+            "Fitness Center",
+            "Multiple Restaurants",
+            "Business Center",
+            "Valet Parking"
+        ],
+        "location": {
+            "address": "Main Gulshan Avenue, Dhaka, Bangladesh",
+            "city": "Dhaka",
+            "state": "Dhaka Division",
+            "country": "Bangladesh",
+            "zip_code": "1212"
+        },
+        "contact_info": {
+            "phone": "+880 2-9891988",
+            "email": "contact@westindhaka.com",
+            "website": "https://www.marriott.com/en-us/hotels/dacwi-the-westin-dhaka"
+        },
+        "hotel_rating": 4.6,
+        "number_of_rooms": 235,
+        "type": "Luxury",
+        "images": [
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://cdn.prod.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp"
+        ]
+    },
+    {
+        "hotel_id": "BD003",
+        "hotel_name": "Pan Pacific Sonargaon Dhaka",
+        "facility": [
+            "Free Breakfast",
+            "Swimming Pool",
+            "Spa",
+            "Fitness Center",
+            "Multiple Dining Options",
+            "Laundry Service",
+            "Meeting Rooms"
+        ],
+        "location": {
+            "address": "107 Kazi Nazrul Islam Avenue, Dhaka, Bangladesh",
+            "city": "Dhaka",
+            "state": "Dhaka Division",
+            "country": "Bangladesh",
+            "zip_code": "1215"
+        },
+        "contact_info": {
+            "phone": "+880 2-55028008",
+            "email": "reservations.dac@panpacific.com",
+            "website": "https://www.panpacific.com/en/hotels-and-resorts/pp-sonargaon-dhaka.html"
+        },
+        "hotel_rating": 4.3,
+        "number_of_rooms": 277,
+        "type": "Business",
+        "images": [
+            "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://www.spencerhotel.co.nz/wp-content/uploads/2020/11/Spencer-Hotel-Family-Suite-Bedroom-1.jpg"
+        ]
+    },
+    {
+        "hotel_id": "BD004",
+        "hotel_name": "Amari Dhaka",
+        "facility": [
+            "Free WiFi",
+            "Outdoor Pool",
+            "Spa",
+            "Rooftop Bar",
+            "Airport Transfer",
+            "Restaurant",
+            "24-Hour Room Service"
+        ],
+        "location": {
+            "address": "47 Road No 41, Dhaka, Bangladesh",
+            "city": "Dhaka",
+            "state": "Dhaka Division",
+            "country": "Bangladesh",
+            "zip_code": "1212"
+        },
+        "contact_info": {
+            "phone": "+880 2-55059888",
+            "email": "info.dhaka@amari.com",
+            "website": "https://www.amari.com/dhaka"
+        },
+        "hotel_rating": 4.4,
+        "number_of_rooms": 134,
+        "type": "Luxury",
+        "images": [
+            "https://htl-img-res-new.s3.ap-south-1.amazonaws.com/2769/20221022/main.jpg",
+            "https://images.unsplash.com/photo-1439130490301-25e322d88054?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+    },
+    {
+        "hotel_id": "BD005",
+        "hotel_name": "Radisson Blu Chattogram Bay View",
+        "facility": [
+            "Free Breakfast",
+            "Outdoor Pool",
+            "Spa",
+            "Fitness Center",
+            "Multiple Restaurants",
+            "Conference Rooms",
+            "Parking"
+        ],
+        "location": {
+            "address": "S. S. Khaled Road, Lal Khan Bazar, Chattogram, Bangladesh",
+            "city": "Chattogram",
+            "state": "Chattogram Division",
+            "country": "Bangladesh",
+            "zip_code": "4000"
+        },
+        "contact_info": {
+            "phone": "+880 31-619800",
+            "email": "reservations.chattogram@radisson.com",
+            "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-chattogram"
+        },
+        "hotel_rating": 4.5,
+        "number_of_rooms": 241,
+        "type": "Luxury",
+        "images": [
+            " https://media.radissonhotels.net/image/radisson-blu-hotel-chattogram-bay-view/exterior/16256-116439-f64873197_4k.jpg?impolicy=HomeHero ",
+            " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5A0nGhL8c9mlheN7ML3tp8k6MnFBVRE1GA&s "
+        ]
+    },
+    {
+        "hotel_id": "BD006",
+        "hotel_name": "Rose View Hotel",
+        "facility": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Restaurant",
+            "Bar",
+            "Meeting Rooms",
+            "Laundry Service",
+            "Spa"
+        ],
+        "location": {
+            "address": "Shahjalal Uposhohor, Sylhet, Bangladesh",
+            "city": "Sylhet",
+            "state": "Sylhet Division",
+            "country": "Bangladesh",
+            "zip_code": "3100"
+        },
+        "contact_info": {
+            "phone": "+880 821-721439",
+            "email": "info@roseviewhotel.com",
+            "website": "https://www.roseviewhotel.com"
+        },
+        "hotel_rating": 4.0,
+        "number_of_rooms": 140,
+        "type": "Luxury",
+        "images": [
+            " https://cf.bstatic.com/xdata/images/hotel/max1024x768/249362437.jpg?k=fd3b7ebd222c2ead592b7934946633099fc845d873a8f664ec80d197a140dbc6&o=&hp=1 ",
+            " https://cf.bstatic.com/xdata/images/hotel/max1024x768/68102310.jpg?k=6f4e46808689832717b500f0422115a1d065cd97b85981d988ffa45cb9e2da51&o=&hp=1 "
+        ]
+    },
+    {
+        "hotel_id": "BD007",
+        "hotel_name": "Hotel Agrabad",
+        "facility": [
+            "Free Breakfast",
+            "Swimming Pool",
+            "Spa",
+            "Fitness Center",
+            "Business Center",
+            "Restaurant",
+            "Conference Facilities"
+        ],
+        "location": {
+            "address": "1672 Sabder Ali Road, Agrabad Commercial Area, Chattogram, Bangladesh",
+            "city": "Chattogram",
+            "state": "Chattogram Division",
+            "country": "Bangladesh",
+            "zip_code": "4100"
+        },
+        "contact_info": {
+            "phone": "+880 31-713311",
+            "email": "info@hotelagrabad.com",
+            "website": "https://www.hotelagrabad.com"
+        },
+        "hotel_rating": 4.1,
+        "number_of_rooms": 101,
+        "type": "Business",
+        "images": [
+            " https://cf.bstatic.com/xdata/images/hotel/max1024x768/596829600.jpg?k=147e016475b288f97c3009dae134d78bf7906f01466d0aadcf66a35b78d9e826&o=&hp=1 ",
+            " https://agrabadhotel.com/en/wp-content/uploads/2015/10/executive-deluxe01-1000x667.jpg?1722816000031 "
+        ]
+    },
+    {
+        "hotel_id": "BD008",
+        "hotel_name": "Long Beach Hotel Cox's Bazar",
+        "facility": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Rooftop Cafe",
+            "Beach Access",
+            "Spa",
+            "Restaurant",
+            "Kids' Play Area"
+        ],
+        "location": {
+            "address": "14 Kalatoli Road, Cox's Bazar, Bangladesh",
+            "city": "Cox's Bazar",
+            "state": "Chattogram Division",
+            "country": "Bangladesh",
+            "zip_code": "4700"
+        },
+        "contact_info": {
+            "phone": "+880 341-51843",
+            "email": "info@longbeachhotelbd.com",
+            "website": "https://www.longbeachhotelbd.com"
+        },
+        "hotel_rating": 4.3,
+        "number_of_rooms": 104,
+        "type": "Beach Resort",
+        "images": [
+            " https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuyND-xAT8NPYBES8C1Qj9DhDQFxAhumRmFcId2z6xkgyCxEC2ND7yE71w9DwUlH9jCBBRAmVf2IqR9zNTHNnWP_tZxRNDZMuJ5K1W3HnMhBBMikuSleEHr09XNJFNeaTUraMTmP3HahHW/w1200-h630-p-k-no-nu/long+beach+hotel+coxsbazar.jpg ",
+            " https://longbeachhotelbd.com/wp-content/uploads/2024/02/superiorDelux_header-1200x488.jpg "
+        ]
+    }
+       ]    
