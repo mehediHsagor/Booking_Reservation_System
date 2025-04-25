@@ -1,11 +1,20 @@
 .ssuubb{
-    height: 40px;
-    width: 80px;
-    background-color: blue;
-    color: rgb(218, 229, 16);
+    height: 48px;
+    width: 105px;
+    
+    color: rgb(232, 7, 7);
     padding: 10px;
     border-radius: 10%;
+    border: 2px solid orange;
 }
 .ssuubb:hover{
     background-color: rgb(73, 219, 32);
+}
+.bord{
+
+    border:3px solid rgb(9, 221, 9);
+    border-radius: 10px;
+    height: 38px;
+    width: 300px;
+
 }

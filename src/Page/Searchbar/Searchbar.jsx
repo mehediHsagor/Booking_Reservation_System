@@ -11,7 +11,7 @@ const Searchbar = () => {
         fetch("http://localhost:5000/users")
             .then((res) => res.json())
             .then((data) => {
-                console.log("Fetched Hotels:", data); // Debugging fetched data
+               // console.log("Fetched Hotels:", data); // Debugging fetched data
                 setHotels(data);
             })
             .catch((err) => console.error("Fetch error:", err));
@@ -32,7 +32,7 @@ const Searchbar = () => {
         );
     });
 
-    console.log("Filtered Hotels:", filteredHotels); // Debugging filter results
+   // Debugging filter results
 
     // Handle input change
     const handleSearch = (e) => {
@@ -43,14 +43,15 @@ const Searchbar = () => {
     return (
         <div className="text-center mb-5">
             <form onSubmit={(e) => e.preventDefault()}>
-                <span className="text-orange-500 text-2xl ml-5">Search:</span>&nbsp;&nbsp;
+                <span className="text-orange-500 text-4xl ml-5">Search :</span>&nbsp;&nbsp;
                 <input
-                    type="text"
+                    type="text "
                     placeholder="Search by Address, City, State, or Country"
                     onChange={handleSearch}
+                    className='bord'
                 />
                 &nbsp;&nbsp;&nbsp;
-                <button type="submit" className="ssuubb">Submit</button>
+                <button type="submit" className="ssuubb text-2xl">Submit</button>
             </form>
 
             {/* Display filtered hotels */}

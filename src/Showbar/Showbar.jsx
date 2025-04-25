@@ -21,7 +21,7 @@ return (
       <p>{cart?.location.address}</p>
       <p>{cart?.contact_info.email}</p>
       <div className="card-actions justify-end">
-      <button className="btn btn-outline btn-success"> <Link to="/booknow">Book Now</Link> </button>
+     
       <button  onClick={() => navigation(`/hotel/${cart._id}`)} className="btn btn-outline btn-warning"> View details</button>
       </div>
     </div>

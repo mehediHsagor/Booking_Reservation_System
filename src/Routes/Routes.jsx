@@ -8,6 +8,11 @@ import Signup from "../Page/Signup/Signup";
 import Hotel from "../Hotel/Hotel";
 import Admin_route from "../Admin_route/Admin_route";
 import Booknow from "../Booknow/Booknow";
+import Cart from "../Cart/Cart";
+import Procedtocheckout from "../Proceedtocheckout/Procedtocheckout";
+import Addcategory from "../Addcategory/Addcategory";
+import Admindashboard from "../AdminDashboard/Admindashboard";
+import Hotelplace from "../Hotelsplace/Hotelplace";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -43,12 +48,33 @@ const router = createBrowserRouter([
   },
   {
 
-    path:"admin_route",
+    path:"/admin_route",
     element:<Admin_route></Admin_route>
   },{
 
     path:"/booknow/:id",
     element:<Booknow></Booknow>
+  },{
+
+    path:"/cart",
+    element:<Cart></Cart>
+  },
+  {
+
+    path:"/procedtocheckout/:id",
+    element:<Procedtocheckout></Procedtocheckout>
+  },{
+
+    path:"/addcategory",
+    element:<Addcategory></Addcategory>
+  },{
+    path:"/admindashboard",
+    element:<Admindashboard/>
+    
+  },
+  {
+    path:"/hotelplace",
+    element:<Hotelplace></Hotelplace>
   }
 ]);
 export default router;

@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Dhaka",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Dhaka_April_%2833274941853%29.jpg/1200px-Dhaka_April_%2833274941853%29.jpg",
+      "division": "Dhaka"
+    },
+    {
+      "id": 2,
+      "name": "Chattogram",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-c/1280x250/0e/64/44/e5/3-steps-of-the-fall.jpg",
+      "division": "Chattogram"
+    },
+    {
+      "id": 3,
+      "name": "Khulna",
+      "image": "https://cosmosgroup.sgp1.digitaloceanspaces.com/news/details/2742993.webp",
+      "division": "Khulna"
+    },
+    {
+      "id": 4,
+      "name": "Rajshahi",
+      "image": "https://ecdn.kalerkantho.com/public/news_images/2023/01/25/1674628662-70b13168795d40f914651b2dd67fea18.jpg",
+      "category": "Rajshahi"
+    },
+    {
+      "id": 5,
+      "name": "Barishal",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Barisal_Launch_Terninal.jpg",
+      "category": "Barishal"
+    },
+    {
+      "id": 6,
+      "name": "Sylhet",
+      "image": "https://i0.wp.com/sylhettouristplaces.com/wp-content/uploads/2020/02/Bisnakandi-Sylhet.jpg?fit=2000%2C1333&ssl=1",
+      "category": "Sylhet"
+    },
+    {
+      "id": 7,
+      "name": "Rangpur",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/cf/a3/57/hotel-overview.jpg?w=1200&h=-1&s=1",
+      "category": "Rangpur"
+    },
+    {
+      "id": 8,
+      "name": "Mymensingh",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/A_front_view_of_Shashi_Lodge_4.jpg/1200px-A_front_view_of_Shashi_Lodge_4.jpg",
+      "category": "Mymensingh"
+    }
+  ]
+  
