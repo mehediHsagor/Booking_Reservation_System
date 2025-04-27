@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 const Swiperslider = () => {
   const [products, setProducts] = useState([]);
@@ -49,7 +50,7 @@ const Swiperslider = () => {
                 <h2 className="text-2xl font-bold mb-2">{product.name}</h2>
                 <p className="mb-4">{product.description || 'বিস্তারিত তথ্য এখানে পাওয়া যাবে।'}</p>
                 <button className="px-4 py-2 bg-orange-500 rounded hover:bg-orange-600 transition">
-                  পণ্যটি দেখুন
+                 <Link to="/searchbar"> Show Hotel</Link>
                 </button>
               </div>
             </div>

@@ -13,6 +13,7 @@ import Procedtocheckout from "../Proceedtocheckout/Procedtocheckout";
 import Addcategory from "../Addcategory/Addcategory";
 import Admindashboard from "../AdminDashboard/Admindashboard";
 import Hotelplace from "../Hotelsplace/Hotelplace";
+import Searchbar from "../Page/Searchbar/Searchbar";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
   {
     path:"/hotelplace",
     element:<Hotelplace></Hotelplace>
+  }
+  ,{
+    path:"/searchbar",
+    element:<Searchbar></Searchbar>
   }
 ]);
 export default router;

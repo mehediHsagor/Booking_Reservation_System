@@ -41,24 +41,25 @@ const Hotelplace = () => {
       ) : (
         <div className=" gap-4">
           {hotels.map((hotel) => (
-            <div key={hotel._id} className="border p-4 shadow rounded">
+            <div key={hotel._id} className="border p-4  rounded ml-80">
            
              <div>
-             <div className="card bg-base-100 w-96 shadow-xl">
+             <div className="card bg-base-100 w-2/3 h-1/2 shadow-xl">
   <figure>
     <img
-      src={hotel.images[1]}
+      src={hotel.images[0]}
       alt="Shoes" />
   </figure>
   <div className="card-body">
     <h2 className="card-title">
-      {hotel.hotel_name}
-      <div className="badge badge-secondary">NEW</div>
+    <div>  {hotel.hotel_name}</div> 
+      <div className="badge badge-secondary">{hotel.type}</div>
     </h2>
-    <p>{hotel.location.address}</p>
+    <p>{hotel?.location?.address || "No address available"}</p>
+
     <div className="card-actions justify-end">
     <button  onClick={() => navigate(`/booknow/${hotel._id}`)}
-                      className="badge badge-outline" >
+                      className="btn btn-outline btn-warning h-5 w-48 text-2xl" >
                       Book now
                     </button>
 
