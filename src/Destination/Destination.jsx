@@ -17,7 +17,8 @@ const Destination = () => {
 
   return (
     <div>
-      <h1>Bangladesh Divisions</h1>
+      <h1 className='text-4xl mt-2 text-orange-500 text-center' >Explore Bangladesh</h1>
+      These popular destinations have a lot to offer
       <ul className='grid grid-cols-4 '>
         {divisions.map(division => (
            

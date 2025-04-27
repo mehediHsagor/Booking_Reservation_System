@@ -1,17 +1,16 @@
 import { useEffect, useState } from "react";
-import {  useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../Booknow/Booknow.css";
 import guest from "../../src/Booknow/guests.png";
 import bed from "../Booknow/bed.png";
 import bathroom from "../Booknow/bathroom.png";
 import cash from "../Booknow/cash.png";
-import { useNavigate } from "react-router-dom";
 
 const Booknow = () => {
   const { id } = useParams();
-  
   const navigate = useNavigate();
+
   const [carts, setCarts] = useState({});
   const [loading, setLoading] = useState(true);
   const [checkin, setCheckin] = useState("");
@@ -37,10 +36,8 @@ const Booknow = () => {
 
   const addToCart = async (cart) => {
     try {
-      console.log(cart);
       const res = await axios.post("http://localhost:5000/carts", cart);
-      navigate("/cart"); 
-      console.log(res.data);
+      navigate("/cart");
     } catch (error) {
       console.error("Error adding to cart:", error);
     }
@@ -64,70 +61,72 @@ const Booknow = () => {
   const totalPrice = carts.price * quantity * getNumberOfNights();
 
   return (
-    <div>
+    <div className="booknow-container">
+      {/* Hotel Image */}
       <div className="bookimag">
         <img src={carts.images?.[0]} alt="Hotel Preview" />
       </div>
 
       <div className="flex">
+        {/* Left Section */}
         <div className="bookput">
-          <h1 className="card-title text-green-500 ml-20 mt-48">
-            {carts.hotel_name}
-          </h1>
-          <h1 className="card-title text-blue-500 ml-20 mt-2">{carts.type}</h1>
+          <h1 className="card-title text-green-500 ml-20 mt-48">{carts.hotel_name}</h1>
+          <h2 className="card-title text-blue-500 ml-20 mt-2">{carts.type}</h2>
 
-          <div className="flex ml-20 mt-4 text-xl">
-            <h1 className="flex">
-              <img className="h-10" src={guest} alt="" />
-              <span className="mt-2"> {carts.facility?.[3]} </span>
-            </h1>
-            <h1 className="flex ml-6">
-              <img className="h-10" src={bed} alt="" />
-              <span className="mt-2"> {carts.facility?.[4]} </span>
-            </h1>
-            <h1 className="flex ml-6">
-              <img className="h-10" src={bathroom} alt="" />
-              <span className="mt-2"> {carts.facility?.[5]} </span>
-            </h1>
-            <h1 className="mt-2 ml-6">{carts.facility?.[6]}</h1>
-            <h1 className="mt-2 ml-6">{carts.facility?.[7]}</h1>
+          <div className="flex ml-20 mt-4 text-xl space-x-6">
+            <div className="flex items-center space-x-2">
+              <img className="h-10" src={guest} alt="Guest Icon" />
+              <span>{carts.facility?.[3]}</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <img className="h-10" src={bed} alt="Bed Icon" />
+              <span>{carts.facility?.[4]}</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <img className="h-10" src={bathroom} alt="Bathroom Icon" />
+              <span>{carts.facility?.[5]}</span>
+            </div>
+            <span>{carts.facility?.[6]}</span>
+            <span>{carts.facility?.[7]}</span>
           </div>
 
-          <div>
-            <h1 className="ml-20 mt-4 text-xl text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit...
-            </h1>
-          </div>
+          <p className="ml-20 mt-4 text-xl text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit...
+          </p>
 
-          <div>
-            <h1 className="text-4xl ml-20 mt-4">Room Amenities</h1>
-            {carts.facility?.map((item, index) => (
-              <h2 key={index} className="ml-24">
-                {item}
-              </h2>
-            ))}
+          <div className="ml-20 mt-6">
+            <h2 className="text-3xl mb-2">Room Amenities</h2>
+            <ul className="list-disc ml-6">
+              {carts.facility?.map((item, index) => (
+                <li key={index} className="ml-4">{item}</li>
+              ))}
+            </ul>
           </div>
         </div>
 
-        <div className="mt-48 bg-base-100 bookinput p-5 mr-10">
-          <div className="ml-6">
-            <div>
-              <h1 className="flex">
-                <span className="text-4xl mt-3 text-orange-500">Reserve:</span>
-                <span className="ml-2 mt-6">From</span>
-                <span className="flex ml-4 mt-5">
-                  <img className="h-10" src={cash} alt="" />
-                  <span className="mt-2 text-red-500">{carts.price}/night</span>
-                </span>
-              </h1>
+        {/* Right Section: Booking Form */}
+        <div className="mt-48 bg-base-100 bookinput p-6 ml-16 w-1/3 rounded shadow-xl">
+          <div>
+            <div className="flex items-center mb-4">
+              <h2 className="text-4xl text-orange-500">Reserve:</h2>
+              <span className="ml-2 mt-3">From</span>
+              <div className="flex items-center ml-4">
+                <img className="h-10" src={cash} alt="Price Icon" />
+                <span className="mt-2 text-red-500 text-xl ml-2">{carts.price}/night</span>
+              </div>
             </div>
 
-            <input className="bbbboook" type="text" name="user" placeholder="User name" />
+            <input
+              className="bbbboook w-full mb-4"
+              type="text"
+              name="user"
+              placeholder="User name"
+            />
 
-            <div className="flex bbbbooo mt-3">
-              <h1 className="text-4xl">Check In</h1>
+            <div className="flex justify-between mb-4">
+              <label className="text-xl mt-7">CheckIn &nbsp;</label>
               <input
-                className="ml-36"
+                className="border px-3 py-1 ml-1 rounded"
                 type="date"
                 name="checkin"
                 onChange={handleCheckin}
@@ -135,10 +134,10 @@ const Booknow = () => {
               />
             </div>
 
-            <div className="flex bbbbooo mt-6">
-              <h1 className="text-4xl">Check Out</h1>
+            <div className="flex justify-between mb-4">
+              <label className="text-xl mt-7">CheckOut &nbsp; </label>
               <input
-                className="ml-32"
+                className="border px-3 py-1 ml-1 rounded"
                 type="date"
                 name="checkout"
                 onChange={handleCheckout}
@@ -146,51 +145,37 @@ const Booknow = () => {
               />
             </div>
 
-            <div className="room flex bg-base-100 shadow-xl p-1 bbbbooo mt-5">
-              <h1 className="text-4xl ml-5">Room</h1>
-
-              <div className="collapse collapse-arrow bg-base-100 ml-44">
-                <input type="radio" name="my-accordion-2" />
-                <div className="collapse-title text-xl font-medium">
-                  {quantity} Room
-                </div>
-                <div className="collapse-content flex">
-                  <h1>Rooms</h1>
-                  <button onClick={decrease} className="rounded ml-3">
-                    <span className="text-2xl text-blue-500">-</span>
-                  </button>
-                  <span className="text-lg ml-2">{quantity}</span>
-                  <button onClick={increase} className="rounded">
-                    <span className="text-2xl text-blue-500 ml-2">+</span>
-                  </button>
-                </div>
+            <div className="room flex justify-between items-center bg-gray-100 p-3 rounded mb-4">
+              <h2 className="text-xl">Room</h2>
+              <div className="flex items-center space-x-4">
+                <button onClick={decrease} className="text-2xl text-blue-500">-</button>
+                <span>{quantity}</span>
+                <button onClick={increase} className="text-2xl text-blue-500">+</button>
               </div>
             </div>
 
-            <div className="flex mt-8">
-              <h1 className="text-4xl text-orange-500">Total Cost:</h1>
-              <h1 className="text-2xl text-blue-500 mt-2 ml-4">{totalPrice} Tk</h1>
+            <div className="flex justify-between mb-6">
+              <h2 className="text-xl text-orange-500">Total Cost:</h2>
+              <span className="text-xl text-blue-500">{totalPrice} Tk</span>
             </div>
 
-            <h1 className="ml-40 mt-5 p-3">
-              <button
-                className="btn btn-outline"
-                onClick={() =>
-                  addToCart({
-                    hotelId: id,
-                    hotelName: carts.hotel_name,
-                    pricePerNight: carts.price,
-                    quantity: quantity,
-                    checkin: checkin,
-                    checkout: checkout,
-                    totalPrice: totalPrice,
-                    image: carts.images?.[0],
-                  })
-                }
-              >
-                Book Your Stay Now
-              </button>
-            </h1>
+            <button
+              className="btn btn-outline w-full"
+              onClick={() =>
+                addToCart({
+                  hotelId: id,
+                  hotelName: carts.hotel_name,
+                  pricePerNight: carts.price,
+                  quantity: quantity,
+                  checkin: checkin,
+                  checkout: checkout,
+                  totalPrice: totalPrice,
+                  image: carts.images?.[0],
+                })
+              }
+            >
+              Book Your Stay Now
+            </button>
           </div>
         </div>
       </div>

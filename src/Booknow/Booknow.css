@@ -1,56 +1,166 @@
-.bookimag{
-
-    height: 500px;
-    width: 1200px;
-    justify-content: center;
-    align-items: center;
-   
-  display: flex;
-   margin-left: 90px;
-}
-.bookinput{
-
-  height: 630px;
-  width: 600px;
-  border: 1px solid rgb(99, 226, 67);
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  margin-left: 20px;
-}
-.bookput{
-
-  width: 900px;
-}
-.bbbbooo{
-  align-items: center;
-  justify-content: center;
-
-  height: 70px;
-  width: 500px;
-  border: 2px solid black;
-}
-.bbbboook{
-  align-items: center;
-  justify-content: center;
-
-  height: 70px;
-  width: 500px;
-  border: 2px solid black;
-  color: black;
- 
-}
-.bbbboook::placeholder {
-  color: black;
-  font-size: 28px;
-
-  padding-left: 25px;
-
+/* Global Background for the whole page */
+body {
+  background: linear-gradient(135deg, #f1f1f1, #e0e0e0);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-.oookkk{
+/* Shadow Effects for Cards */
+.shadow-custom {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-  height: 30px;
-  width: 200px;
-  background-color: rgb(251, 238, 219);
+.shadow-custom:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+/* Hero Section Styling */
+.bookimag img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  transition: all 0.4s ease-in-out;
+}
+
+.bookimag:hover img {
+  filter: brightness(0.5);
+  transform: scale(1.05);
+}
+
+.bookimag {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.bookimag::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3); /* Soft dark overlay */
+  border-radius: 8px;
+}
+/* Booking Section Container */
+.bookinput {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Input Fields */
+input[type="text"], input[type="date"] {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 0.75rem;
+  width: 100%;
+  margin-top: 1rem;
+  background: #f9f9f9;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+  border-color: #FF6F61;
+  outline: none;
+}
+
+/* Button Styling */
+.btn {
+  background: #FF6F61;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #D9574A;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+}
+/* Room Quantity Button */
+button {
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Room Quantity Adjuster */
+.room {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.room:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.collapse-content {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+}
+/* Title and Heading Styling */
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+h1.card-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2d3748; /* Darker Shade for Titles */
+}
+
+h2.card-title {
+  font-size: 1.8rem;
+  color: #4A90E2;
+}
+
+/* Beautiful Paragraphs */
+.text-justify {
+  line-height: 1.6;
+  color: #555;
+  font-size: 1.15rem;
+}
+
+/* Facilities Icon */
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+/* Hover Effect for Cards */
+.bookput:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.bookput {
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
