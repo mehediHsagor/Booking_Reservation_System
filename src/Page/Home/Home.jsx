@@ -1,5 +1,5 @@
 import Searchbar from "../Searchbar/Searchbar.jsx"
-import Swiper_pagination from "../Swiper_pagination/Swiper_pagination.jsx";
+
 import Beststaff from "../Best_staff/BestStaff.jsx";
 import Swiperslider from "../../swiperslide/Swiperslide.jsx";
 import Destination from "../../Destination/Destination.jsx";
@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
     <Swiperslider></Swiperslider>
-      <Swiper_pagination />
+     
       <Destination></Destination>
       <Beststaff />
       <Searchbar />

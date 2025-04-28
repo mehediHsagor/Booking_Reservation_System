@@ -14,6 +14,7 @@ import Addcategory from "../Addcategory/Addcategory";
 import Admindashboard from "../AdminDashboard/Admindashboard";
 import Hotelplace from "../Hotelsplace/Hotelplace";
 import Searchbar from "../Page/Searchbar/Searchbar";
+import PrivateRoute from "./PrivateRoute";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -54,7 +55,7 @@ const router = createBrowserRouter([
   },{
 
     path:"/booknow/:id",
-    element:<Booknow></Booknow>
+    element:<PrivateRoute><Booknow></Booknow></PrivateRoute>
   },{
 
     path:"/cart",
