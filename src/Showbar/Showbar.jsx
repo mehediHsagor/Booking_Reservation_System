@@ -1,18 +1,19 @@
 import { useNavigate } from "react-router-dom";
+import "../Showbar/Showbar.css"
 
 const Showbar = ({ cart }) => {
   const navigate = useNavigate();
 
   return (
     <div className="p-1 m-1">
-      <div className="card bg-white rounded-3xl shadow-2xl hover:cursor-pointer hover:scale-110 transition duration-300 h-96">
+      <div className="card bg-white rounded-3xl shadow-2xl hover:cursor-pointer hover:scale-110 transition duration-300 imaggepic">
         {/* Images Carousel */}
         <div className="h-72 w-full relative overflow-hidden rounded-t-3xl">
           <div className="carousel w-full">
             <div className="carousel-item w-full">
               <img
                 src={cart?.images?.[0]}
-                className="object-cover w-full h-72"
+                className="object-cover w-full  h-80"
                 alt="Hotel Image 1"
               />
             </div>

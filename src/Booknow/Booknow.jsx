@@ -112,7 +112,10 @@ const HotelRoomTypes = () => {
         </button>
       </div>
       {selectedRoom ? (
-        <div className="border p-8 rounded-xl shadow-lg bg-white max-w-3xl mx-auto">
+        <div className="grid grid-cols-2">
+
+       
+        <div className="border p-8 rounded-xl shadow-lg bg-white max-w-3xl h-auto wwww mx-auto">
           <img
             src={selectedRoom.image}
             alt={selectedRoom.type}
@@ -124,10 +127,11 @@ const HotelRoomTypes = () => {
           <p className="text-2xl text-green-700 mb-4 font-bold">
             Price: {selectedRoom.price}৳ / night
           </p>
-          <p className="text-lg text-gray-700 leading-7">{selectedRoom.details}</p>
+          <p className="text-lg text-blue-700 leading-7">{selectedRoom.details}</p>
+          </div>
 
           {/* Booking Form */}
-          <div className="mt-8 bg-base-100 bookinput p-6 ml-16 w-full rounded shadow-xl">
+          <div className="mt-1 bg-base-100 bookinput p-6 ml-16 wwww mt- rounded shadow-xl">
             <div>
               <div className="flex items-center mb-4">
                 <h2 className="text-4xl text-orange-500">Reserve:</h2>
@@ -137,16 +141,20 @@ const HotelRoomTypes = () => {
                   <span className="mt-2 text-red-500 text-xl ml-2">{selectedRoom.price}৳/night</span>
                 </div>
               </div>
-
+              <div className="flex">
+              <label className="text-xl mt-7">Username: &nbsp;</label>
               <input
                 className="bbbboook w-full mb-4"
                 type="text"
                 name="user"
                 placeholder="User name"
               />
+              </div>
+
+             
 
               <div className="flex justify-between mb-4">
-                <label className="text-xl mt-7">CheckIn &nbsp;</label>
+                <label className="text-xl mt-7">CheckIn: &nbsp; &nbsp; &nbsp;</label>
                 <input
                   className="border px-3 py-1 ml-1 rounded"
                   type="date"
@@ -157,7 +165,7 @@ const HotelRoomTypes = () => {
               </div>
 
               <div className="flex justify-between mb-4">
-                <label className="text-xl mt-7">CheckOut &nbsp; </label>
+                <label className="text-xl mt-7">CheckOut: &nbsp; </label>
                 <input
                   className="border px-3 py-1 ml-1 rounded"
                   type="date"
@@ -190,6 +198,7 @@ const HotelRoomTypes = () => {
             </div>
           </div>
         </div>
+        
       ) : (
         <p className="text-2xl text-gray-600 text-center mt-12">
           Please select a room type above.

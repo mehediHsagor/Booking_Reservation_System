@@ -37,7 +37,7 @@ const Hotelplace = () => {
   return (
     <div className="mt-6">
       {hotels.length === 0 ? (
-        <p>No hotels found for this division.</p>
+        <p className="text-4xl text-orange-500 text-center mt-10">No hotels found for this division.</p>
       ) : (
         <div className=" gap-4">
           {hotels.map((hotel) => (

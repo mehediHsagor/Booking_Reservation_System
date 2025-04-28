@@ -1,0 +1,14 @@
+.opopop{
+
+   
+   padding: 10px;
+   display: inline-block;
+   transition: transform 0.3s ease;
+   border-radius: 8px;
+
+}
+.opopop:hover{
+
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
