@@ -20,10 +20,10 @@ const Destination = () => {
     <div>
       <h1 className='text-4xl mt-2 text-orange-500 text-center' >Explore Bangladesh</h1>
       <p className='text-2xl text-center mt-1'> These popular destinations have a lot to offer</p> 
-      <ul className='grid grid-cols-4 '>
+      <ul className='grid grid-cols-1  sm:grid-cols-2 ml-16 md:grid-cols-3 lg:grid-cols-4 gap-6'>
         {divisions.map(division => (
            
-            <div className='opopop' key={division.id}  onClick={() => navigate(`/hotelplace?${division.name}`)} >
+            <div className='opopop ' key={division.id}  onClick={() => navigate(`/hotelplace?${division.name}`)} >
               
 
                     
