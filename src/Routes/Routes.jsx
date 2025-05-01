@@ -15,6 +15,7 @@ import Admindashboard from "../AdminDashboard/Admindashboard";
 import Hotelplace from "../Hotelsplace/Hotelplace";
 import Searchbar from "../Page/Searchbar/Searchbar";
 import PrivateRoute from "./PrivateRoute";
+import FIdback from "../fidback/FIdback";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -81,6 +82,10 @@ const router = createBrowserRouter([
   ,{
     path:"/searchbar",
     element:<Searchbar></Searchbar>
+  },{
+
+    path:"/fidback",
+    element:<FIdback></FIdback>
   }
 ]);
 export default router;

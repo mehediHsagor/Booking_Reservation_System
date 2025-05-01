@@ -7,7 +7,7 @@ import Destination from "../../Destination/Destination.jsx";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
     <Swiperslider></Swiperslider>
      
       <Destination></Destination>

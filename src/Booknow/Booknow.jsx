@@ -200,7 +200,7 @@ const HotelRoomTypes = () => {
         </div>
         
       ) : (
-        <p className="text-2xl text-gray-600 text-center mt-12">
+        <p className="text-4xl text-orange-600 text-center mt-12">
           Please select a room type above.
         </p>
       )}

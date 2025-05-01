@@ -8,7 +8,7 @@ const Admin_route = () => {
         event.preventDefault();
        const  form = event.target;
        const  hotel_id = form.hotel_id.value;
-       const name = form.name.value;
+       const hotel_name = form.name.value;
        const facility = form.facility.value;
        const  address = form.address.value;
        const city = form.city.value;
@@ -19,12 +19,13 @@ const Admin_route = () => {
        const website = form.website.value;
        const rating = form.rating.value;
        const rooms = form.rooms.value;
+       const division = form.division.value;
        const type = form.type.value;
        const images1 = form.images1.value;
         const price = form.price.value;
        const images2 =form.images2.value;
 
-  const user ={hotel_id,name,facility,address,city,state,country,zip_code,phone,website,rating,rooms,type,images1,price,images2};
+  const user ={hotel_id,hotel_name,facility,address,city,state,country,zip_code,phone,website,rating,rooms,division,type,images1,price,images2};
   console.log(user)
 
   fetch('http://localhost:5000/users',{
@@ -72,6 +73,7 @@ const Admin_route = () => {
         
         <input type="text" placeholder="Hotel_rating" name="rating"  className="input input-bordered w-full max-w-xs mt-3" />&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="text" placeholder="Number_of_rooms" name="rooms" className="input input-bordered w-full max-w-xs mt-3" /><br/>
+        <input type="text" placeholder="Division" name="division" className="input input-bordered w-full max-w-xs mt-3" /><br/>
         <input type="text" placeholder="Type" name="type" className="input input-bordered w-full max-w-xs mt-3" />&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="url" placeholder="Images1" name="images1" className="input input-bordered w-full max-w-xs mt-3" /><br/>
         <input type="text" placeholder="Price" name="price"  className="input input-bordered w-full max-w-xs mt-3" />&nbsp;&nbsp;&nbsp;&nbsp;

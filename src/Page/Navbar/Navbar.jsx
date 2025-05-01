@@ -25,31 +25,35 @@ const Navbar = () => {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li><Link to="/home">Home</Link></li>
+        <li className=""><Link to="/home">Home</Link></li>
         <li><Link to="/About">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/admindashboard">Dashboard</Link></li>
+        <li><Link to="/fidback">Fidback</Link></li>
        
      
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Booking</a>
+    <a className="btn btn-ghost text-xl font-semibold tracking-wide hover:scale-105 transition-all duration-300 mb-4">
+  <span className="text-6xl font-bold text-orange-400 drop-shadow-sm">N</span>
+  <span className="text-gray-700 pl-1">ibhriti<span className="text-sm text-yellow-500">.com</span></span>
+</a>
+
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <li><Link to="/">Home</Link></li>
+    <li className="text-xl "><Link to="/">Home</Link></li>
      
-    <li><Link to="/About">About</Link></li>
+    <li className="text-xl "><Link to="/About">About</Link></li>
     
-    <li><Link to="/contact">Contact</Link></li>
-    <li><Link to="/admindashboard">Dashboard</Link></li>
+    <li className="text-xl "><Link to="/contact">Contact</Link></li>
+    <li className="text-xl "><Link to="/admindashboard">Dashboard</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
-  <button> <h1> {user&&<span>{user.displayName}</span>}</h1>
+  <button> <h1 className=""> {user&&<span>{user.displayName}</span>}</h1>
             {
-                user ? <span>{user.email}  <button onClick={handlelogout}>logOut</button></span>
-                :<Link to="/login">LogIN</Link>
+                user ? <span className="text-blue-400">{user.email} <button className="text-black text-xl" onClick={handlelogout}>LogOut</button></span>
+                :<Link to="/login"><span className="text-xl ">LogIn</span></Link>
             }</button> 
   </div>
 </div>
