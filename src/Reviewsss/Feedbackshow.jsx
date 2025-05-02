@@ -27,8 +27,8 @@ const Feedbackshow = () => {
   if (!feedbackList.length) return <div>No feedback available.</div>;
 
   return (
-    <div className="p-4">
-      <h1 className="text-3xl font-bold text-center mb-6">User Feedback</h1>
+    <div className="p-4 mb-5 mt-2">
+      <h1 className="text-3xl font-bold text-orange-500 text-center mb-6">User Feedback</h1>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

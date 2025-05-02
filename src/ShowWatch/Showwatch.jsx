@@ -10,7 +10,7 @@ const Showwatch = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/hote/${id}`) // API থেকে নির্দিষ্ট product নিয়ে আসা
+    fetch(`http://localhost:5000/hote/${id}`) 
       .then((res) => res.json())
       .then((data) => {
         setProductInfo(data);
