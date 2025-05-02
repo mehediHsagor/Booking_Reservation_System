@@ -16,6 +16,7 @@ import Hotelplace from "../Hotelsplace/Hotelplace";
 import Searchbar from "../Page/Searchbar/Searchbar";
 import PrivateRoute from "./PrivateRoute";
 import FIdback from "../fidback/FIdback";
+import Feedbackshow from "../Reviewsss/Feedbackshow";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -86,6 +87,10 @@ const router = createBrowserRouter([
 
     path:"/fidback",
     element:<FIdback></FIdback>
+  },{
+
+    path:"/feedbackshow",
+    element:<Feedbackshow></Feedbackshow>
   }
 ]);
 export default router;
