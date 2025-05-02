@@ -6,44 +6,47 @@ const Destination = () => {
   const [divisions, setDivisions] = useState([]);
 
   useEffect(() => {
-    // Simulate fetching data
     fetch("division.json")
       .then((res) => res.json())
       .then((data) => setDivisions(data));
-  }, []); //
-  // Empty dependency array = run once on mount
+  }, []);
 
   const navigate = useNavigate();
 
   return (
-    <div>
-      <h1 className="text-4xl mt-2 text-orange-500 text-center">
+    <div className="px-4 sm:px-6 lg:px-10 py-6">
+      <h1 className="text-3xl sm:text-4xl font-bold text-orange-500 text-center">
         Explore Bangladesh
       </h1>
-      <p className="text-2xl text-center mt-1">
-        {" "}
+      <p className="text-lg sm:text-xl text-center mt-2 mb-6">
         These popular destinations have a lot to offer
       </p>
-      <ul className="grid grid-cols-1  sm:grid-cols-2 ml-12 md:grid-cols-3 lg:grid-cols-4 ">
+
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {divisions.map((division) => (
-          <div
-            className="opopop "
-            key={division.id}
+          <div className="p-2" key={division.id}>
+
+         
+          <li
+       
+            className="cursor-pointer"
             onClick={() => navigate(`/hotelplace?${division.name}`)}
           >
-            <li className="relative w-[300px] m-8 h-[300px]">
+            <div className="relative w-full h-72 sm:h-80 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
               <img
                 src={division.image}
                 alt={division.name}
-                className="w-full h-full object-cover rounded"
+                className="w-full h-full object-cover"
               />
-              <h2 className="absolute bottom-20 left-20 bg-black bg-opacity-50 text-white px-2 py-1 rounded">
+              <h2 className="absolute bottom-4 left-4 bg-black bg-opacity-50 text-white px-3 py-1 rounded text-lg font-semibold">
                 {division.name}
               </h2>
-            </li>
+            </div>
+          </li>
           </div>
         ))}
       </ul>
+      
     </div>
   );
 };
