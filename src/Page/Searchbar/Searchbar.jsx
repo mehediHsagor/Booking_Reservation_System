@@ -56,7 +56,7 @@ const Searchbar = () => {
           Submit
         </button>
       </form>
-      <div className="grid grid-cols-3 m-5">
+      <div className="md:grid grid-cols-3  lg:grid-cols-3 sm:grid-cols-1 m-5">
         {/* Display filtered hotels */}
         {filteredHotels.length > 0 ? (
           filteredHotels.map((hotel) => (

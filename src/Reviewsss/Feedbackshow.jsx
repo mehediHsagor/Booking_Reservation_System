@@ -27,7 +27,7 @@ const Feedbackshow = () => {
   if (!feedbackList.length) return <div>No feedback available.</div>;
 
   return (
-    <div className="p-4 mb-5 mt-2">
+    <div className="p-4 mb-5 mt-2 ">
       <h1 className="text-3xl font-bold text-orange-500 text-center mb-6">User Feedback</h1>
       <Swiper
         spaceBetween={30}
@@ -43,10 +43,10 @@ const Feedbackshow = () => {
       >
         {feedbackList.map((item, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-white shadow p-6 rounded-lg text-center">
-              <h2 className="text-xl font-semibold mb-2">{item.username}</h2>
-              <p className="text-gray-600 italic">Hotel: {item.hotelname}</p>
-              <p className="text-sm mt-2">{item.review}</p>
+            <div className="bg-white shadow p-10 h-72 rounded-lg text-center">
+              <h2 className="text-xl font-semibold  text-blue-400 mb-2">{item.username}</h2>
+              <p className="text-gray-800 italic"> {item.hotelname}</p>
+              <p className="text-xl text-red-600  mt-2">{item.review}</p>
               <p className="text-yellow-500 mt-2">Rating: {item.rating} ⭐</p>
             </div>
           </SwiperSlide>
