@@ -8,7 +8,7 @@ const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const from = location.state?.from?.pathname || "/"; // যেখানে থেকে ইউজার এসেছিল, না থাকলে হোম
+  const from = location.state?.from?.pathname || "/"; 
 
   const handleLogin = event => {
     event.preventDefault();

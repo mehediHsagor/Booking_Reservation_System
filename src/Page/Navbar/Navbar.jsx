@@ -52,14 +52,14 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl font-semibold tracking-wide hover:scale-105 transition-all duration-300 mb-4">
+          <div className="btn btn-ghost text-xl font-semibold tracking-wide hover:scale-105 transition-all duration-300 mb-4">
             <span className="text-6xl font-bold text-orange-400 drop-shadow-sm">
               N
             </span>
             <span className="text-gray-700 pl-1">
               ibhriti<span className="text-sm text-yellow-500">.com</span>
             </span>
-          </a>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -76,6 +76,9 @@ const Navbar = () => {
             </li>
             <li className="text-xl ">
               <Link to="/fidback">Feedback</Link>
+            </li>
+            <li className="text-xl ">
+              <Link to="/otp">otp</Link>
             </li>
           </ul>
         </div>

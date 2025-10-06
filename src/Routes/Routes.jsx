@@ -17,6 +17,8 @@ import Searchbar from "../Page/Searchbar/Searchbar";
 import PrivateRoute from "./PrivateRoute";
 import FIdback from "../fidback/FIdback";
 import Feedbackshow from "../Reviewsss/Feedbackshow";
+
+import Otpverification from "../Page/Otpverification/Otpverification";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -91,6 +93,9 @@ const router = createBrowserRouter([
 
     path:"/feedbackshow",
     element:<Feedbackshow></Feedbackshow>
+  },{
+    path:"/otp",
+    element:<Otpverification></Otpverification>
   }
 ]);
 export default router;
