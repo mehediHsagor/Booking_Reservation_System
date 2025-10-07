@@ -1,4 +1,4 @@
-import gpsIcon from "../Contact/GPS.png";
+import gpsIcon from "../Contact/gps.png";
 import phoneIcon from "../Contact/phone-call.png";
 import emailIcon from "../Contact/gmail (2).png";
 import facebookIcon from "../Contact/Facebook (5).png";
